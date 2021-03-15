@@ -1,7 +1,7 @@
 #pragma once
 #include "Animal.h"
 
-class Dog :	public Animal
+class Dog : public Animal
 {
 private:
 	std::string breed;
@@ -16,4 +16,3 @@ public:
 
 	std::string toString() const;
 };
-

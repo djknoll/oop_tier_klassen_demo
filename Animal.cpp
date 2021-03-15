@@ -4,7 +4,7 @@
 
 using namespace std;
 
-Animal::Animal(std::string _colour, double _weight) : colour{ _colour }, weight{ _weight }
+Animal::Animal(std::string _colour, double _weight) : colour{_colour}, weight{_weight}
 {
 	cout << "Constructing an animal." << endl;
 }
@@ -27,6 +27,7 @@ double Animal::getWeight() const
 std::string Animal::toString() const
 {
 	stringstream buffer;
-	buffer << "Animal \n\t weight: " << this->weight << " kg"<< endl << "\t colour: " << this->colour << endl;
+	buffer << "Animal \n\t weight: " << this->weight << " kg" << endl
+		   << "\t colour: " << this->colour << endl;
 	return buffer.str();
 }

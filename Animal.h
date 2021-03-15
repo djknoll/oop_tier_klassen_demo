@@ -16,4 +16,3 @@ public:
 
 	std::string toString() const;
 };
-

@@ -1,9 +1,9 @@
 #pragma once
 #include "Animal.h"
 
-class Penguin: public Animal
+class Penguin : public Animal
 {
-private: 
+private:
 	std::string type;
 
 public:
@@ -14,4 +14,3 @@ public:
 
 	std::string toString() const;
 };
-
